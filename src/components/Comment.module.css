@@ -1,0 +1,96 @@
+.comment {
+  margin-top: 1.5rem;
+  display: flex;
+  position: relative;
+}
+
+img {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 8px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 1rem;
+  line-height: 1.6;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background: var(--gray-700);
+  border-radius: 8px;
+  
+  padding: 1rem 1rem 1.5rem;
+}
+
+.content strong {
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.content strong span {
+  color: var(--gray-400);
+}
+
+time {
+  color: var(--gray-400);
+  font-size: 0.75rem;
+}
+
+.paragraph {
+  color: var(--gray-300);
+  font-size: 0.875rem;
+  margin-top: 1rem;
+}
+
+.content button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  border: none;
+  cursor: pointer;
+  line-height: 0;
+  borde3r-radius: 2px;
+}
+
+.content button svg {
+  color: var(--gray-400);
+
+  transition: color 0.1s;
+}
+
+.content button svg:hover {
+  color: var(--red-500);
+}
+
+.likes {
+  background: transparent;
+  border: none;
+  color: var(--gray-400);
+  font-weight: 700;
+  font-size: 0.875rem;
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.625rem;
+
+  margin-top: 1rem;
+
+  cursor: pointer;
+  transition: color 0.1s;
+}
+
+.likes:hover {
+  color: var(--green-400);
+}
